@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Dibujo con mouse </title>
+    <meta charset="utf-8">
+    <style>
+    body
+    {
+      background-color: #aaaaff;
+      font-family: cursive;
+      font-style: Helvetica;
+    }
+    canvas
+    {
+      background-color: white;
+    }
+    </style>
+  </head>
+  <body>
+    <h1> Mantén presionado el mouse para poder dibujar </h1>
+    <canvas height="300" width="300" id="dibujito"></canvas>
+    <p> Así queda tu dibujo </p>
+  <script src="dibujomouse.js"></script>
+  </body>
+</html>
